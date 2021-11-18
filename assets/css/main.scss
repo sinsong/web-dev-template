@@ -1,0 +1,41 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root
+{
+    color: var(--color-text);
+    background-color: var(--color-bg);
+
+    --color-text: #ccc;
+    --color-bg: #111;
+    --color-cornflower-blue: #6495ed;
+}
+
+#app
+{
+    .container
+    {
+        height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .panel
+    {
+        h1
+        {
+            color: var(--color-cornflower-blue);
+            padding: 0.5rem 0;
+        }
+
+        p
+        {
+            text-align: center;
+        }
+    }
+}
